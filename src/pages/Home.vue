@@ -4,7 +4,7 @@
       <h1 class="p-2 bg-blue-900 text-white rounded">Home</h1>
       <router-link to="/about">
         <button class="p-2 border-transparent rounded border border-transparent hover:border-blue-900">
-          About
+          OK
         </button>
       </router-link>
     </div>
