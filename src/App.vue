@@ -10,7 +10,7 @@
         <div class="flex-1">
           <router-link to="/" class="text-white">
             <img
-              src="src/assets/img/aien-logo-mobile.png"
+              src="./assets/img/aien-logo-mobile.png"
               alt=""
               class=""
             />
@@ -233,7 +233,7 @@
       <div class="max-w-screen-xl mx-auto h-full flex flex-col space-y-4">
         <div class="pb-8 flex justify-center md:justify-start">
           <router-link to="/">
-            <img src="src/assets/img/aien-logo.png" alt="" class="w-64" />
+            <img src="./assets/img/aien-logo.png" alt="" class="w-64" />
           </router-link>
         </div>
         <div
