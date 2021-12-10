@@ -2,13 +2,13 @@
   <div class="relative tracking-wide">
     <!-- HEADER -->
     <div
-      class="bg-blue-800 fixed top-0 left-0 right-0 px-4 md:px-8 z-50 shadow-lg"
+      class="bg-blue-800 fixed top-0 left-0 right-0 px-6 md:px-8 z-50 shadow-lg"
     >
       <div
         class="max-w-screen-xl mx-auto flex h-24 items-center"
       >
         <div class="flex-1">
-          <router-link to="/" class="text-white">
+          <router-link to="/" class="text-white" @click.native="showMenu = false">
             <img
               src="./assets/img/aien-logo-mobile.png"
               alt=""
@@ -159,17 +159,15 @@
         right-0
         left-0
         bottom-0
-        bg-blue-900
+        bg-blue-800
         z-50
-        px-8
-        pb-8
-        pt-4
+        p-6
       "
     >
-      <div class="flex flex-col space-y-4 text-gray-300 tracking-wider">
+      <div class="flex flex-col space-y-2 tracking-wider">
         <router-link
           class="
-            text-gray-300 text-xl
+            text-white text-xl
             border-b border-transparent
             hover:border-white hover:text-white
             transition
@@ -179,11 +177,11 @@
           @click.native="showMenu = false"
           to="/"
         >
-          <span> Home </span>
+          <span>Home</span>
         </router-link>
         <router-link
           class="
-            text-gray-300 text-xl
+            text-white text-xl
             border-b border-transparent
             hover:border-white hover:text-white
             transition
@@ -191,13 +189,13 @@
             py-4
           "
           @click.native="showMenu = false"
-          to="/jobs"
+          to="/akademia"
         >
-          <span> Jobs </span>
+          <span> Akademia </span>
         </router-link>
         <router-link
           class="
-            text-gray-300 text-xl
+            text-white text-xl
             border-b border-transparent
             hover:border-white hover:text-white
             transition
@@ -205,13 +203,13 @@
             py-4
           "
           @click.native="showMenu = false"
-          to="/workplace"
+          to="/projekte"
         >
-          <span> Workplace </span>
+          <span> Projekte </span>
         </router-link>
         <router-link
           class="
-            text-gray-300 text-xl
+            text-white text-xl
             border-b border-transparent
             hover:border-white hover:text-white
             transition
@@ -219,9 +217,37 @@
             py-4
           "
           @click.native="showMenu = false"
-          to="/cool-stuff"
+          to="/aktivitete"
         >
-          <span> Cool Stuff </span>
+          <span> Aktivitete </span>
+        </router-link>
+        <router-link
+          class="
+            text-white text-xl
+            border-b border-transparent
+            hover:border-white hover:text-white
+            transition
+            duration-300
+            py-4
+          "
+          @click.native="showMenu = false"
+          to="/publikime"
+        >
+          <span> Publikime </span>
+        </router-link>
+        <router-link
+          class="
+            text-white text-xl
+            border-b border-transparent
+            hover:border-white hover:text-white
+            transition
+            duration-300
+            py-4
+          "
+          @click.native="showMenu = false"
+          to="/blog"
+        >
+          <span> Blog </span>
         </router-link>
       </div>
     </div>

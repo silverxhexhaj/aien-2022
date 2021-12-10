@@ -1,10 +1,10 @@
 <template>
-  <div class="h-32 bg-blue-800 mt-24 px-4 md:px-8">
+  <div class="h-32 bg-blue-800 mt-24 px-6 md:px-8">
     <div class="relative max-w-screen-xl mx-auto flex items-center h-full">
       <h1 class="text-white text-4xl font-bold">Aktivitete</h1>
     </div>
   </div>
-  <div class="p-4 md:p-8">
+  <div class="p-6 md:p-8">
     <div class="min-h-screen relative max-w-screen-xl mx-auto">
       <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
         <!-- v-for="post in posts"
@@ -28,24 +28,17 @@
               Në kuadër të Akademisë së Integrimit Europian dhe Negociatave,
               ditë...
             </p>
-            <div class="flex justify-end mt-auto">
-              <a
+            <div class="text-sm flex items-center justify-end">
+              <span
                 class="
-                  text-white
-                  bg-blue-800
-                  hover:bg-blue-900
-                  focus:outline-none
-                  font-semibold
-                  rounded-md
-                  text-xs
-                  px-4
-                  py-2
-                  uppercase
+                  cursor-pointer
+                  font-medium
+                  text-blue-700
+                  hover:text-blue-500
                 "
-                href="#"
+                >View more</span
               >
-                <span>me Shume</span>
-              </a>
+              <span class="text-blue-700 text-xs ml-1">&#x279c;</span>
             </div>
           </div>
         </li>
@@ -68,24 +61,17 @@
               Në kuadër të Akademisë së Integrimit Europian dhe Negociatave,
               ditë...
             </p>
-            <div class="flex justify-end mt-auto">
-              <a
+            <div class="text-sm flex items-center justify-end">
+              <span
                 class="
-                  text-white
-                  bg-blue-800
-                  hover:bg-blue-900
-                  focus:outline-none
-                  font-semibold
-                  rounded-md
-                  text-xs
-                  px-4
-                  py-2
-                  uppercase
+                  cursor-pointer
+                  font-medium
+                  text-blue-700
+                  hover:text-blue-500
                 "
-                href="#"
+                >View more</span
               >
-                <span>me Shume</span>
-              </a>
+              <span class="text-blue-700 text-xs ml-1">&#x279c;</span>
             </div>
           </div>
         </li>
@@ -108,24 +94,17 @@
               Në kuadër të Akademisë së Integrimit Europian dhe Negociatave,
               ditë...
             </p>
-            <div class="flex justify-end mt-auto">
-              <a
+            <div class="text-sm flex items-center justify-end">
+              <span
                 class="
-                  text-white
-                  bg-blue-800
-                  hover:bg-blue-900
-                  focus:outline-none
-                  font-semibold
-                  rounded-md
-                  text-xs
-                  px-4
-                  py-2
-                  uppercase
+                  cursor-pointer
+                  font-medium
+                  text-blue-700
+                  hover:text-blue-500
                 "
-                href="#"
+                >View more</span
               >
-                <span>me Shume</span>
-              </a>
+              <span class="text-blue-700 text-xs ml-1">&#x279c;</span>
             </div>
           </div>
         </li>
@@ -148,24 +127,17 @@
               Në kuadër të Akademisë së Integrimit Europian dhe Negociatave,
               ditë...
             </p>
-            <div class="flex justify-end mt-auto">
-              <a
+            <div class="text-sm flex items-center justify-end">
+              <span
                 class="
-                  text-white
-                  bg-blue-800
-                  hover:bg-blue-900
-                  focus:outline-none
-                  font-semibold
-                  rounded-md
-                  text-xs
-                  px-4
-                  py-2
-                  uppercase
+                  cursor-pointer
+                  font-medium
+                  text-blue-700
+                  hover:text-blue-500
                 "
-                href="#"
+                >View more</span
               >
-                <span>me Shume</span>
-              </a>
+              <span class="text-blue-700 text-xs ml-1">&#x279c;</span>
             </div>
           </div>
         </li>

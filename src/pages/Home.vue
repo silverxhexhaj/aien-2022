@@ -1,6 +1,6 @@
 <template>
   <div class="mt-24 min-h-screen">
-    <div class="bg-blue-800 relative p-4 md:p-8">
+    <div class="bg-blue-800 relative px-6 md:px-8 py-12">
       <!-- <div class="carousel-container">
         <transition-group class="carousel" tag="div">
           <div v-for="slide in slides" class="slide" :key="slide.id">
@@ -38,7 +38,7 @@
               rounded-t-lg
               md:rounded-t-none md:rounded-l-lg
               text-2xl
-              h-96
+              h-64 md:h-96
             "
           >
             <img
@@ -91,7 +91,7 @@
               <polygon points="50,0 100,0 50,100 0,100" />
             </svg>
           </div>
-          <div class="absolute left-0 right-0 flex justify-between">
+          <div class=" absolute left-0 right-0 hidden md:flex justify-between">
             <button
               class="
                 bg-blue-800
@@ -128,11 +128,11 @@
         </div>
       </div>
     </div>
-    <div class="flex-col space-y-10 my-9 z-30 relative">
+    <div class="flex-col space-y-16 my-16 z-30 relative">
       <!-- About Us -->
-      <div class="px-4 md:px-8">
+      <div class="px-6 md:px-8">
         <div class="max-w-screen-xl mx-auto">
-          <div class="grid grid-cols-3 gap-8 items-center">
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
             <div class="flex-1 text-gray-800">
               <div
                 class="
@@ -181,7 +181,7 @@
                 "
               >
                 <div class="text-2xl font-bold">Topics</div>
-                <div class="grid grid-cols-3 gap-6 font-semibold">
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 font-semibold">
                   <div
                     class="
                       px-6
@@ -281,9 +281,9 @@
       </div>
 
       <!-- Latest Publications -->
-      <div class="px-4 md:px-8">
+      <div class="px-6 md:px-8">
         <div class="max-w-screen-xl mx-auto border-t pt-10">
-          <div class="grid grid-cols-7 gap-10 space-y-4 text-gray-900">
+          <div class="grid grid-cols-1 lg:grid-cols-7 md:gap-10 space-y-6 md:space-y-0 text-gray-900">
             <div class="col-span-2">
               <div class="text-xl font-bold mb-2 tracking-tight">
                 Latest Publications
@@ -306,7 +306,7 @@
                 <span class="text-xs ml-1">&#x279c;</span>
               </div>
             </div>
-            <div class="col-span-5 grid grid-cols-5 gap-10">
+            <div class="col-span-5 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10">
               <div class="flex flex-col space-y-3">
                 <div class="shadow-lg rounded-md overflow-hidden h-full">
                   <img
@@ -373,9 +373,9 @@
       </div>
 
       <!-- Latest News -->
-      <div class="px-4 md:px-8">
+      <div class="px-6 md:px-8">
         <div class="max-w-screen-xl mx-auto border-t pt-10">
-          <div class="grid grid-cols-7 gap-10 space-y-4 text-gray-900">
+          <div class="grid grid-cols-1 lg:grid-cols-7 md:gap-10 space-y-6 md:space-y-0 text-gray-900">
             <div class="col-span-2">
               <div class="text-xl font-bold mb-2 tracking-tight">
                 Latest News
@@ -397,7 +397,7 @@
                 <span class="text-xs ml-1">&#x279c;</span>
               </div>
             </div>
-            <div class="col-span-5 grid grid-cols-3 gap-10">
+            <div class="col-span-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
               <div class="bg-white shadow-md rounded-md">
                 <div href="#" class="">
                   <img
