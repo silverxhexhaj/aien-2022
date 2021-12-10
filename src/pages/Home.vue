@@ -48,7 +48,7 @@
             />
           </div>
           <div class="w-full md:w-3/5 h-full flex items-center rounded-lg">
-            <div class="p-12 md:pr-24 md:pl-16 md:py-12">
+            <div class="p-8 md:p-12 md:pr-24 md:pl-16 md:py-12">
               <h2 class="text-white font-bold text-2xl mb-4">
                 Konferenca Përmbyllëse AIEN Edicioni II “Përgatitja për
                 Negociata: Nevoja për Kapacitete”
