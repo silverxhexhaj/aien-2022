@@ -1,14 +1,21 @@
 <template>
-  <div class="flex space-x-2 p-2">
-    <router-link to="/">
-      <button class="p-2 border-transparent rounded border border-transparent hover:border-blue-900">Home</button>
-    </router-link>
-    <h1 class="p-2 bg-blue-900 text-white rounded">About</h1>
+  <div class="h-32 bg-blue-800 mt-24 px-4 md:px-8">
+    <div class="relative max-w-screen-xl mx-auto flex items-center h-full">
+      <h1 class="text-white text-4xl font-bold">Akademia</h1>
+    </div>
+  </div>
+  <div class="p-4 md:p-8 min-h-screen">
+    <div class="relative max-w-screen-xl mx-auto">
+      <div class="shadow-md rounded-md overflow-hidden">
+        Akademia
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
+
 export default {
-  name: "About"
+  
 };
 </script>
