@@ -13,7 +13,7 @@
           <div href="#" class="">
             <img
               class="rounded-t-md h-48 object-cover w-full"
-              src="http://aien.al/storage/app/public/images/2021-11-17_1637144240.jpeg"
+              src="../assets/img/cover-img.jpeg"
               alt=""
             />
           </div>
@@ -53,7 +53,7 @@
           <div href="#" class="">
             <img
               class="rounded-t-md h-48 object-cover w-full"
-              src="http://aien.al/storage/app/public/images/83d69181-ecbf-456e-ad72-662250ac50af_1613470836.jfif"
+              src="../assets/img/cover-img.jpeg"
               alt=""
             />
           </div>
@@ -93,7 +93,7 @@
           <div href="#" class="">
             <img
               class="rounded-t-md h-48 object-cover w-full"
-              src="http://aien.al/storage/app/public/images/foto%20per%20web_1614787386.png"
+              src="../assets/img/cover-img.jpeg"
               alt=""
             />
           </div>
@@ -133,7 +133,7 @@
           <div href="#" class="">
             <img
               class="rounded-t-md h-48 object-cover w-full"
-              src="http://aien.al/storage/app/public/images/western_balkans_1560821996.jpg"
+              src="../assets/img/cover-img.jpeg"
               alt=""
             />
           </div>

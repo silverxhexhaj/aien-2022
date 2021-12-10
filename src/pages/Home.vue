@@ -43,7 +43,7 @@
           >
             <img
               class="absolute inset-0 w-full h-full object-cover object-center"
-              src="http://aien.al/storage/app/public/images/2021-11-17_1637144240.jpeg"
+              src="../assets/img/cover-img.jpeg"
               alt=""
             />
           </div>
@@ -311,7 +311,7 @@
                 <div class="shadow-lg rounded-md overflow-hidden h-full">
                   <img
                     class="rounded-t-md h-full object-cover"
-                    src="http://aien.al/storage/app/public/images/pub4_1612126893.PNG"
+                    src="../assets/img/pub-1.png"
                     alt=""
                   />
                 </div>
@@ -323,7 +323,7 @@
                 <div class="shadow-lg rounded-md overflow-hidden h-full">
                   <img
                     class="rounded-t-md h-full object-cover"
-                    src="http://aien.al/storage/app/public/images/pub5_1617894943.PNG"
+                    src="../assets/img/pub-2.png"
                     alt=""
                   />
                 </div>
@@ -335,7 +335,7 @@
                 <div class="shadow-lg rounded-md overflow-hidden h-full">
                   <img
                     class="rounded-t-md h-full object-cover"
-                    src="http://aien.al/storage/app/public/images/from-wrasawa_1583391227.png"
+                    src="../assets/img/pub-3.png"
                     alt=""
                   />
                 </div>
@@ -347,7 +347,7 @@
                 <div class="shadow-lg rounded-md overflow-hidden h-full">
                   <img
                     class="rounded-t-md h-full object-cover"
-                    src="http://aien.al/storage/app/public/images/pajtimi_ne_ballkan_1583390599.png"
+                    src="../assets/img/pub-4.png"
                     alt=""
                   />
                 </div>
@@ -359,7 +359,7 @@
                 <div class="shadow-lg rounded-md overflow-hidden h-full">
                   <img
                     class="rounded-t-md h-full object-cover"
-                    src="http://aien.al/storage/app/public/images/perception_of_young_1583390164.PNG"
+                    src="../assets/img/pub-5.png"
                     alt=""
                   />
                 </div>

@@ -12,7 +12,7 @@
             <div class="w-1/3">
               <img
                 class="rounded-t-md"
-                src="http://aien.al/storage/app/public/images/pub4_1612126893.PNG"
+                src="../assets/img/pub-1.png"
                 alt=""
               />
             </div>
@@ -55,7 +55,7 @@
             <div class="w-1/3">
               <img
                 class="rounded-t-md"
-                src="http://aien.al/storage/app/public/images/pub4_1612126893.PNG"
+                src="../assets/img/pub-2.png"
                 alt=""
               />
             </div>
@@ -98,7 +98,7 @@
             <div class="w-1/3">
               <img
                 class="rounded-t-md"
-                src="http://aien.al/storage/app/public/images/pub4_1612126893.PNG"
+                src="../assets/img/pub-3.png"
                 alt=""
               />
             </div>
@@ -141,7 +141,7 @@
             <div class="w-1/3">
               <img
                 class="rounded-t-md"
-                src="http://aien.al/storage/app/public/images/pub4_1612126893.PNG"
+                src="../assets/img/pub-4.png"
                 alt=""
               />
             </div>
