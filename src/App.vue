@@ -135,14 +135,14 @@
             @click="showMenu = true"
             v-if="!showMenu"
             width="32"
-            src="src/assets/img/menu-icon-2.svg"
+            src="./assets/img/menu-icon-2.svg"
             alt=""
           />
           <img
             @click="showMenu = false"
             v-if="showMenu"
             width="24"
-            src="src/assets/img/close-icon.svg"
+            src="./assets/img/close-icon.svg"
             alt=""
           />
         </div>
@@ -271,10 +271,10 @@
             </div>
           </div>
           <div class="flex-1 flex space-x-4 justify-end">
-            <img src="src/assets/img/github-icon.svg" alt="" class="w-8" />
-            <img src="src/assets/img/linkedin-icon.svg" alt="" class="w-8" />
-            <img src="src/assets/img/fb-icon.svg" alt="" class="w-8" />
-            <img src="src/assets/img/instagram-icon.svg" alt="" class="w-8" />
+            <img src="./assets/img/github-icon.svg" alt="" class="w-8" />
+            <img src="./assets/img/linkedin-icon.svg" alt="" class="w-8" />
+            <img src="./assets/img/fb-icon.svg" alt="" class="w-8" />
+            <img src="./assets/img/instagram-icon.svg" alt="" class="w-8" />
           </div>
         </div>
         <div class="text-center text-sm">
