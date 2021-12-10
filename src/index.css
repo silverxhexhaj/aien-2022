@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.slide {
+  flex: 0 0 100%;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+  transition: all 0.3s;
+  background: #ddd;
+  margin: 20px 0;
+}
+
+.carousel-controls__button {
+  cursor: pointer;
+  background: tomato;
+  border: 0;
+  color: #fff;
+  border-radius: 3px;
+  padding: 5px 10px;
+  font-size: 18px;
+}
