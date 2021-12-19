@@ -189,6 +189,8 @@
                       rounded
                       flex
                       items-center
+                      text-center
+                      justify-center
                       bg-red-100
                       text-red-700
                     "
@@ -202,6 +204,8 @@
                       rounded
                       flex
                       items-center
+                      text-center
+                      justify-center
                       bg-orange-100
                       text-orange-700
                     "
@@ -215,6 +219,8 @@
                       rounded
                       flex
                       items-center
+                      text-center
+                      justify-center
                       bg-yellow-100
                       text-yellow-700
                     "
@@ -228,6 +234,8 @@
                       rounded
                       flex
                       items-center
+                      text-center
+                      justify-center
                       bg-green-100
                       text-green-700
                     "
@@ -241,6 +249,8 @@
                       rounded
                       flex
                       items-center
+                      text-center
+                      justify-center
                       bg-sky-100
                       text-sky-700
                     "
@@ -254,6 +264,8 @@
                       rounded
                       flex
                       items-center
+                      text-center
+                      justify-center
                       bg-purple-100
                       text-purple-700
                     "
@@ -267,6 +279,8 @@
                       rounded
                       flex
                       items-center
+                      text-center
+                      justify-center
                       bg-pink-100
                       text-pink-700
                     "

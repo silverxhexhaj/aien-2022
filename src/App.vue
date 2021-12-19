@@ -4,19 +4,19 @@
     <div
       class="bg-blue-800 fixed top-0 left-0 right-0 px-6 md:px-8 z-50 shadow-lg"
     >
-      <div
-        class="max-w-screen-xl mx-auto flex h-24 items-center"
-      >
+      <div class="max-w-screen-xl mx-auto flex h-24 items-center">
         <div class="flex-1">
-          <router-link to="/" class="text-white" @click.native="showMenu = false">
-            <img
-              src="./assets/img/aien-logo-mobile.png"
-              alt=""
-              class=""
-            />
+          <router-link
+            to="/"
+            class="text-white"
+            @click.native="showMenu = false"
+          >
+            <img src="./assets/img/aien-logo-mobile.png" alt="" class="" />
           </router-link>
         </div>
-        <div class="hidden md:flex justify-center flex-1 space-x-12 tracking-wider">
+        <div
+          class="hidden md:flex justify-center flex-1 space-x-8 tracking-wider"
+        >
           <router-link
             class="
               text-gray-200
@@ -43,6 +43,120 @@
               </svg>
             </span>
           </router-link>
+          <Menu as="div" class="relative inline-block text-left">
+            <MenuButton
+              class="
+                inline-flex
+                justify-center
+                items-center
+                w-full
+                px-4
+                py-2
+                font-medium
+                text-white
+                bg-transparent
+                rounded-md
+                hover:bg-black hover:bg-opacity-30
+                focus:outline-none
+                transition
+                duration-250
+              "
+            >
+              <span>
+                Akademia
+              </span>
+              <ChevronDownIcon
+                class="w-5 h-5 ml-2 -mr-1 text-violet-200 hover:text-violet-100"
+                aria-hidden="true"
+              />
+            </MenuButton>
+
+            <transition
+              enter-active-class="transition duration-100 ease-out"
+              enter-from-class="transform scale-95 opacity-0"
+              enter-to-class="transform scale-100 opacity-100"
+              leave-active-class="transition duration-75 ease-in"
+              leave-from-class="transform scale-100 opacity-100"
+              leave-to-class="transform scale-95 opacity-0"
+            >
+              <MenuItems
+                class="
+                  absolute
+                  right-0
+                  w-56
+                  mt-2
+                  origin-top-right
+                  bg-white
+                  divide-y divide-gray-100
+                  rounded-md
+                  shadow-lg
+                  ring-1 ring-black ring-opacity-5
+                  focus:outline-none
+                "
+              >
+                <div class="px-1 py-1">
+                  <MenuItem v-slot="{ active }">
+                    <button
+                      :class="[
+                        active ? 'bg-violet-500 text-white' : 'text-gray-900',
+                        'group flex rounded-md items-center w-full px-2 py-2 text-sm',
+                      ]"
+                    >
+                      Edit
+                    </button>
+                  </MenuItem>
+                  <MenuItem v-slot="{ active }">
+                    <button
+                      :class="[
+                        active ? 'bg-violet-500 text-white' : 'text-gray-900',
+                        'group flex rounded-md items-center w-full px-2 py-2 text-sm',
+                      ]"
+                    >
+                      Duplicate
+                    </button>
+                  </MenuItem>
+                </div>
+                <div class="px-1 py-1">
+                  <MenuItem v-slot="{ active }">
+                    <button
+                      :class="[
+                        active ? 'bg-violet-500 text-white' : 'text-gray-900',
+                        'group flex rounded-md items-center w-full px-2 py-2 text-sm',
+                      ]"
+                    >
+                      Archive
+                    </button>
+                  </MenuItem>
+                </div>
+              </MenuItems>
+            </transition>
+          </Menu>
+          <router-link to="/akademia">
+            <Menu as="div" class="relative inline-block text-left">
+              <MenuButton
+                class="
+                  inline-flex
+                  justify-center
+                  items-center
+                  w-full
+                  px-4
+                  py-2
+                  font-medium
+                  text-white
+                  bg-transparent
+                  rounded-md
+                  hover:bg-black hover:bg-opacity-30
+                  focus:outline-none
+                  transition
+                  duration-250
+                "
+              >
+                <span>
+                  Akademia
+                </span>
+              </MenuButton>
+            </Menu>
+          </router-link>
           <router-link
             class="
               text-white
@@ -55,7 +169,7 @@
             "
             to="/akademia"
           >
-            <span class="first-letter:text-7xl">Akademia</span>
+            <span>Akademia</span>
           </router-link>
           <router-link
             class="
@@ -129,7 +243,6 @@
           </svg>
         </div>
 
-
         <div class="flex items-center justify-center md:hidden">
           <img
             @click="showMenu = true"
@@ -152,17 +265,7 @@
     <!-- Mobile Menu -->
     <div
       v-if="showMenu"
-      class="
-        fixed
-        mt-24
-        top-0
-        right-0
-        left-0
-        bottom-0
-        bg-blue-800
-        z-50
-        p-6
-      "
+      class="fixed mt-24 top-0 right-0 left-0 bottom-0 bg-blue-800 z-50 p-6"
     >
       <div class="flex flex-col space-y-2 tracking-wider">
         <router-link
